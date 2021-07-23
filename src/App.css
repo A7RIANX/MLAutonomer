@@ -1,38 +1,57 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap');
+
+html{
+  height: 100%;
+  background-color: #fff;
+  /*background-image: linear-gradient(180deg, rgb(68, 61, 114) 10%, rgb(173, 76, 230) 80%);*/
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
+  /*background-image: linear-gradient(180deg, rgb(68, 61, 114) 10%, rgb(173, 76, 230) 80%);*/
+  background-attachment: fixed;
+  color: #757067;
+  background-color: #ffffff;
+}
+body{
+  overflow: hidden;
+}
+label{
+  color: #2c2c2c;
+  user-select: none;
+}
+button{
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::placeholder{
+  color: #cccccccc;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:-moz-placeholder{
+  color: #cccccccc;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::selection{
+  background: #ff6486;
+  color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+::-moz-selection{
+  background: #ff6486;
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar{
+  width: 7.5px;
+  height: 7.5px;
+}
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(180deg, #ff5278 5%, #ff7575 75%);
+}
+::-webkit-scrollbar-corner{
+  background-color: #ff5278;
 }
