@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# About ML Autonomer
+ML Autonomer is a Web-based Image Classification ML model trainer using CNN (Convolutional Neural Network) methodology for Sipeed KendryteK210 an AI-IoT module which can use Deep Learning to achieve an AI-support related tasks (AI-vision, Voice recognition)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Why ML Autonomer
+Kendryte K210 not supported a generic Machine Learning model because Sipeed's Kendryte K210 have it own ML model format, to operate the AI module related task, The available options was:
+1) Sipeed's Official website - If you prefers to do the simple task, this might Consumes a considerable amount of time.
+2) Made it own - User needs to coding, optimizing and converting to compatible with K210.
+3) ML Autonomer - No coding for making Machine Learning model, Ideal for simple task, beginners friendly.
 
-## Available Scripts
+This service will provide user the non-coding ML Models for Kendryte K210 module as a result.
 
-In the project directory, you can run:
+## Instructions:
+1.Drag/Put the Set of the images to the provided area.
+2.Label/Naming the Set of the images.
+3.Repeat step (1) and (2) in order for another Image sets.
+4.Click the button below for doing magic, user sits within a few minutes.
+5.Done and dusted - The image model ready to serve.
 
-### `npm start`
+## What's inside ML Autonomer
+We use the AIWintermuteAI's aXelerate as an original ML based for Kendryte K210 ML model and we optimized/adapted into the Web application service.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Library:
+https://github.com/AIWintermuteAI/aXeleRate
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Issues (Updated 30/5/24)
+- Imported libraries may not be working as intended (e.g. Dropzone may accepted any files instead of accepting image files only)
 
-### `npm test`
+### Note
+- The project was not update for 3 years ago, recently I have noticed  some library is updated/deprecated and may cause the issues, leading to make the Webapp won't functioning properly as we are intended.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- I have terminate our own MS Azure service due to the monthly subscription cost to operate the service, so this repository is about the Webapp page which user only "partially experienced".
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Fully-functional video link:
+https://drive.google.com/file/d/1-AgvFdyraW65YKIuVUY6W1nw3YyRdDs7/view?usp=drivesdk
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======================
+ML Autonomer team:
+Pavarisorn Nakjakhae - Design, Frontend, API
+Somprasit Kotephuthorn - Backend, Azure, KendryteK210 Implementation
+=======================
+Special thanks to:
+Asst.Prof.Surapont Toomnak - Project adviser
+Nantipat Nakthong - IoT Microcontroller systems Guideliner
+Chattriya Jariyavajee - Web developing Guideliner
+=======================
