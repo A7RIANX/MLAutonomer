@@ -17,7 +17,7 @@ This service will provide user the non-coding ML Models for Kendryte K210 module
 5. Done and dusted - The image model ready to serve.
 
 ## What's inside ML Autonomer
-We use the AIWintermuteAI's aXelerate as an original ML based for Kendryte K210 ML model and we optimized/adapted into the Web application service.
+We use the AIWintermuteAI's aXelerate as an original ML based for Kendryte K210 ML model, and we optimized/adapted into the Web application service.
 
 #### Library external link:
 https://github.com/AIWintermuteAI/aXeleRate
