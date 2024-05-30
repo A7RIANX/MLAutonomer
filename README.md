@@ -10,16 +10,16 @@ Kendryte K210 not supported a generic Machine Learning model because Sipeed's Ke
 This service will provide user the non-coding ML Models for Kendryte K210 module as a result.
 
 ## Instructions:
-1.Drag/Put the Set of the images to the provided area.
-2.Label/Naming the Set of the images.
-3.Repeat step (1) and (2) in order for another Image sets.
-4.Click the button below for doing magic, user sits within a few minutes.
-5.Done and dusted - The image model ready to serve.
+1. Drag/Put the Set of the images to the provided area.
+2. Label/Naming the Set of the images.
+3. Repeat step (1) and (2) in order for another Image sets.
+4. Click the button below for doing magic, user sits within a few minutes.
+5. Done and dusted - The image model ready to serve.
 
 ## What's inside ML Autonomer
 We use the AIWintermuteAI's aXelerate as an original ML based for Kendryte K210 ML model and we optimized/adapted into the Web application service.
 
-### Library:
+#### Library external link:
 https://github.com/AIWintermuteAI/aXeleRate
 
 ## Project Issues (Updated 30/5/24)
@@ -31,16 +31,19 @@ https://github.com/AIWintermuteAI/aXeleRate
 - I have terminate our own MS Azure service due to the monthly subscription cost to operate the service, so this repository is about the Webapp page which user only "partially experienced".
 
 
-### Fully-functional video link:
+#### Fully-functional footage link:
 https://drive.google.com/file/d/1-AgvFdyraW65YKIuVUY6W1nw3YyRdDs7/view?usp=drivesdk
 
-=======================
-ML Autonomer team:
+
+##### ML Autonomer team:
 Pavarisorn Nakjakhae - Design, Frontend, API
+
 Somprasit Kotephuthorn - Backend, Azure, KendryteK210 Implementation
-=======================
-Special thanks to:
+
+
+##### Special thanks to:
 Asst.Prof.Surapont Toomnak - Project adviser
+
 Nantipat Nakthong - IoT Microcontroller systems Guideliner
+
 Chattriya Jariyavajee - Web developing Guideliner
-=======================
